@@ -1,0 +1,5 @@
+nivel,qtd_cargos,media_aprovada,mediana_aprovada,total_aprovada,total_ocupada,media_taxa_ocupacao,mediana_taxa_ocupacao,taxa_ocupacao_agregada
+NAO_INFORMADO,1255,10.818,2.0,13576,12848,0.983,1.0,0.946
+NI,5712,43.379,3.0,247780,154491,0.893,1.0,0.624
+NM,10,83.9,30.5,839,296,0.293,0.0,0.353
+NS,5792,75.659,4.0,438218,300629,0.779,1.0,0.686
