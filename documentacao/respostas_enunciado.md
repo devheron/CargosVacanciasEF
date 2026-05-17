@@ -1,7 +1,7 @@
 # Respostas ao Enunciado do PM3
 
 **Projeto:** Tratamento de Dados — Cargos Vagos e Vacâncias do Executivo Federal Civil (03/2026)  
-**Aluno(a):** _______________________
+**Equipe:** Heron Felipe Juvenil Divino, Jihad Riad Ghozayel, Nicolas Gabriel Correa Martão, Thiago Andre Simonetti
 
 Este documento responde, de forma objetiva, a cada pergunta e exigência do enunciado da disciplina. Para detalhamento técnico aprofundado, consultar o `relatorio_final.docx`.
 
@@ -166,5 +166,3 @@ Sim, e com facilidade. O dataset final tem estrutura **dimensão × medida** cl�
 | Documentação completa | Sim — catálogo XLSX, relatório, README, este documento |
 
 ---
-
-**Fim do documento.**
