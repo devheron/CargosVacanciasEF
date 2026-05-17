@@ -1,6 +1,7 @@
 # PM3 — Tratamento de Dados: Cargos Vagos e Vacâncias (SEGRT/Executivo Federal)
 
 **Projeto Mensal 3 — Disciplina de Big Data Analytics / BI / Data Mining**
+
 **Equipe:** Heron Felipe Juvenil Divino, Jihad Riad Ghozayel, Nicolas Gabriel Correa Martão, Thiago Andre Simonetti
 
 ---
