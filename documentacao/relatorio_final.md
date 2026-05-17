@@ -5,7 +5,7 @@
 **Disciplina:** Big Data Analytics / BI / Data Mining  
 **Projeto Mensal 3:** Tratamento de Dados  
 **Base utilizada:** SEGES/MGI — Cargos Vagos e Vacâncias (03/2026)  
-**Equipe:*8 Heron Felipe Juvenil Divino, Jihad Riad Ghozayel, Nicolas Gabriel Correa Martão, Thiago Andre Simonetti
+**Equipe:** Heron Felipe Juvenil Divino, Jihad Riad Ghozayel, Nicolas Gabriel Correa Martão, Thiago Andre Simonetti
 **Data:** 17/05/2026
 
 
