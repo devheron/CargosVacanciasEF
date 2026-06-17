@@ -138,3 +138,33 @@ Ferramenta de apoio visual: **Orange Data Mining** v3.36+
 - CASTRO, L. N.; FERRARI, D. G. *Introdução à mineração de dados: conceitos básicos, algoritmos e aplicações.* São Paulo: Saraiva, 2016.
 - GOLDSCHMIDT, R.; BEZERRA, E.; PASSOS, E. *Data mining: conceitos, técnicas, algoritmos, orientações e aplicações.* Rio de Janeiro: Elsevier, 2015.
 - CERCHIARI DE ANDRADE, A. L. *Preparação e análise exploratória de dados.* SAGAH, [s.d.].
+
+---
+
+## 8. Projeto Mensal 4 — Visualização e Dashboard
+
+A pasta `PM4/` estende este projeto para a etapa de **visualização de dados e construção de dashboard**, usando o dataset final tratado no PM3 (`dataset_final_tratado.csv`, 12.769 registros × 37 colunas).
+
+O foco do PM3 foi preparar o dado; o do PM4 é transformá-lo em gráficos, indicadores e análise visual que apoiem a tomada de decisão.
+
+### O que foi construído
+
+- **Dashboard HTML interativo** (`PM4/dashboard.html`) — arquivo único, abre direto no navegador sem instalar nada. Identidade visual com as cores nacionais, storytelling do projeto inteiro (do dado bruto ao dashboard) e gráficos clicáveis: cada elemento conta a história por trás do número. Contém 5 indicadores, 5 gráficos e 4 filtros interativos (nível, porte, situação, faixa de ocupação).
+- **Dashboard em Streamlit** (`PM4/app.py`) — versão em Python do mesmo painel, com filtros na barra lateral. O passo a passo de execução está documentado no cabeçalho do próprio arquivo. Roda com `python -m streamlit run app.py`.
+- **Documento das Etapas 2 e 3** (`PM4/PM4_Etapas2e3.docx`) — planejamento dos gráficos (título, tipo, colunas, pergunta, justificativa) e construção das visualizações com interpretação de cada uma.
+- **Gráficos estáticos** (`PM4/img/`) — versões PNG dos seis gráficos, para uso no relatório.
+
+### Gráficos do dashboard
+
+1. Top 10 órgãos por vagas em aberto (barras) — onde está o déficit.
+2. Vacâncias por causa (barras) — aposentadoria responde por 76,7% das saídas.
+3. Concentração de vagas por órgão (Pareto) — quatro órgãos somam cerca de 49% das vagas.
+4. Cargos por faixa de ocupação (colunas) — explica o paradoxo entre média individual e taxa agregada.
+5. Porte do cargo × situação de extinção (barras empilhadas) — a extinção se concentra nos cargos pequenos.
+
+### Como abrir
+
+- HTML: duplo clique em `PM4/dashboard.html`.
+- Streamlit: `pip install -r PM4/requirements.txt` e depois `python -m streamlit run PM4/app.py`.
+
+Fonte dos dados: Portal Brasileiro de Dados Abertos (dados.gov.br) — SEGES/MGI, competência 03/2026, licença CC BY 4.0.
